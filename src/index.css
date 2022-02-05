@@ -23,6 +23,11 @@ ul {
   padding: 0 20px;
 }
 
+.title {
+  color: rgb(255, 106, 149);
+  text-decoration: none;
+}
+
 header {
   height: 70px;
   width: 100%;

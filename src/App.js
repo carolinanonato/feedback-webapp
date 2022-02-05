@@ -7,6 +7,7 @@ import FeedbackForm from "./components/FeedbackForm"
 import Header from "./components/Header"
 import FeedbackData from "./data/FeedbackData";
 import AboutPage from "./pages/AboutPage";
+import AboutIconLink from './components/AboutIconLink';
 
 
 function App () {
@@ -44,6 +45,8 @@ const deleteFeedback = (id) => {
         </Route>
         <Route path='/about' element={<AboutPage />} />
         </Routes>
+
+        <AboutIconLink/>
         </div>
     </Router>
     )
